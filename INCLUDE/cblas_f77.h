@@ -51,21 +51,21 @@
    #define F77_sswap      f2c_sswap
    #define F77_scopy      f2c_scopy
    #define F77_saxpy      f2c_saxpy
-   #define F77_isamax_sub f2c_isamaxsub
+   #define F77_isamax_sub f2c_isamax
    #define F77_dswap      f2c_dswap
    #define F77_dcopy      f2c_dcopy
    #define F77_daxpy      f2c_daxpy
-   #define F77_idamax_sub f2c_idamaxsub
+   #define F77_idamax_sub f2c_idamax
    #define F77_cswap      f2c_cswap
    #define F77_ccopy      f2c_ccopy
    #define F77_caxpy      f2c_caxpy
-   #define F77_icamax_sub f2c_icamaxsub
+   #define F77_icamax_sub f2c_icamax
    #define F77_zswap      f2c_zswap
    #define F77_zcopy      f2c_zcopy
    #define F77_zaxpy      f2c_zaxpy
-   #define F77_izamax_sub f2c_izamaxsub
-   #define F77_sdot_sub   f2c_sdotsub
-   #define F77_ddot_sub   f2c_ddotsub
+   #define F77_izamax_sub f2c_izamax
+   #define F77_sdot_sub   f2c_sdot
+   #define F77_ddot_sub   f2c_ddot
    #define F77_dsdot_sub   f2c_dsdotsub
    #define F77_sscal      f2c_sscal
    #define F77_dscal      f2c_dscal
@@ -73,18 +73,18 @@
    #define F77_zscal      f2c_zscal
    #define F77_csscal      f2c_csscal
    #define F77_zdscal      f2c_zdscal
-   #define F77_cdotu_sub  f2c_cdotusub
-   #define F77_cdotc_sub  f2c_cdotcsub
-   #define F77_zdotu_sub  f2c_zdotusub
-   #define F77_zdotc_sub  f2c_zdotcsub
-   #define F77_snrm2_sub  f2c_snrm2sub
-   #define F77_sasum_sub  f2c_sasumsub
-   #define F77_dnrm2_sub  f2c_dnrm2sub
-   #define F77_dasum_sub  f2c_dasumsub
-   #define F77_scnrm2_sub  f2c_scnrm2sub
-   #define F77_scasum_sub  f2c_scasumsub
-   #define F77_dznrm2_sub  f2c_dznrm2sub
-   #define F77_dzasum_sub  f2c_dzasumsub
+   #define F77_cdotu_sub  f2c_cdotu
+   #define F77_cdotc_sub  f2c_cdotc
+   #define F77_zdotu_sub  f2c_zdotu
+   #define F77_zdotc_sub  f2c_zdotc
+   #define F77_snrm2_sub  f2c_snrm2
+   #define F77_sasum_sub  f2c_sasum
+   #define F77_dnrm2_sub  f2c_dnrm2
+   #define F77_dasum_sub  f2c_dasum
+   #define F77_scnrm2_sub  f2c_scnrm2
+   #define F77_scasum_sub  f2c_scasum
+   #define F77_dznrm2_sub  f2c_dznrm2
+   #define F77_dzasum_sub  f2c_dzasum
    #define F77_sdsdot_sub  f2c_sdsdotsub
 /*
  * Level 2 BLAS
